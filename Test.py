@@ -1,6 +1,8 @@
 ﻿# On importe le module pigpio et le module time
 import pigpio
 import time
+import os
+os.system('pigpiod')
 # On instancie un objet nommé my_pi de la classe pigpio
 my_pi = pigio.pi()
 # On définit une constante correspondant au pin sur lequel est connecté une LED
